@@ -1,7 +1,7 @@
 #User function Template for python3
 class Solution:
     # Version 1: Count
-    # TC: O(1), SC: O(1)
+    # TC: O(n), SC: O(1)
     def separateStones(self,N,K,arr):
         #code here
         one = arr.count(1)
